@@ -7,6 +7,7 @@ For the security side, we use spring security with Spring security to perform Si
 
 Code Discription:
 ----
+
 >--public
 >> index.html.               //The index page of the frontend webpage.  
 >> setGroup.html             //A test page for Grouping functions  
