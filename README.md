@@ -7,15 +7,18 @@ For the security side, we use spring security with Spring security to perform Si
 
 Code Discription:
 ----
---public
+>--public
 >> index.html.               //The index page of the frontend webpage.  
 >> setGroup.html             //A test page for Grouping functions  
->>>>--Web                     //front time pages using ReactJS  
---src  
+>>--Web                     //front time pages using ReactJS  
+>--src  
 >>--main  
->>>>--java/zayn  
->>>>>>--iot_hub          //SpringBoot Application with Restful Service, Connect to Mysql database through Hibernate with Spring Data JPA  
->>>>>>--iot_sim          //Server side(received MQTT message and relative functions)  
->>>>>>>>--http_server  //HTTP server folder  
->>>>--resources  
->>>>>>--test                     //unit test folder  
+>>>--java/zayn
+>>>>--iot_hub          //SpringBoot Application with Restful Service, Connect to Mysql database through Hibernate with Spring Data JPA  
+>>>>--iot_sim          //Server side(received MQTT message and relative functions)  
+>>>>>--http_server  //HTTP server folder  
+>>>--resources  
+>>--test/java/zayn  
+>>>--test                     //unit test folder  
+
+
